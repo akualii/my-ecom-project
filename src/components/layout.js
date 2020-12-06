@@ -5,7 +5,7 @@ import Navbar from "./headernavbar/navbar";
 class Layout extends Component {
   render() {
     return (
-      <div classNmae="layout">
+      <div className="layout">
         {this.props.children}
         <Header />
         <Navbar />
