@@ -3,6 +3,7 @@
 @import "auth/signin";
 @import "auth/signup";
 @import "page-title";
+@import "form-fields.scss";
 
 html {
   font-size: 62.5%; // 1rem is 10px
@@ -18,13 +19,8 @@ html {
 }
 
 body {
-  overflow-x: hidden;
-  font-weight: normal;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  -webkit-tap-highlight-color: transparent;
+  font-family: "Open Sans";
+  color: #808080;
 }
 
 .app {
