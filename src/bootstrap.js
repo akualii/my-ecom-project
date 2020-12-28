@@ -29,7 +29,7 @@ function main() {
           <Switch>
             <Route path="/" exact component={Signin} />
             <Route path="/" exact component={Signin} />
-            <Route path="/" exact component={Signup} />
+            <Route path="/signup" exact component={Signup} />
           </Switch>
         </Layout>
       </Router>

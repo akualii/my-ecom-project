@@ -9,7 +9,10 @@ class Details extends Component {
         <div className="details__links">
           {links.map((link, index) => {
             return (
-              <a key={link.id} onClick={link.onClick} className="details__link">
+              <a
+                key={link._id}
+                onClick={link.onClick}
+                className="details__link">
                 {link.title}
               </a>
             );
