@@ -1,21 +1,19 @@
 import { SET_USER_PURCHASES, SET_PURCHASE_DETAIL } from "./types";
-
 export function setPurchaseDetail(_id) {
   return {
     type: SET_PURCHASE_DETAIL,
     payload: _id,
   };
 }
-
 export function fetchUserPurchases() {
   return {
     type: SET_USER_PURCHASES,
     payload: [
       {
         _id: 0,
-        total: 19.44,
-        orderNumber: "B0048248343",
-        orderDate: new Date(),
+        total: 19.4,
+        orderNumber: "A0048248343",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Ashley Kualii",
@@ -24,79 +22,79 @@ export function fetchUserPurchases() {
       },
       {
         _id: 1,
-        total: 22.19,
-        orderNumber: "A0048248343",
-        orderDate: new Date(),
+        total: 1.3,
+        orderNumber: "24343sdfkjh72",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Haylee Kualii",
-          shippingAddress: "2476 West State Street",
+          shippingAddress: "1337 West State Street",
         },
       },
       {
         _id: 2,
-        total: 100.0,
-        orderNumber: "0C048248343",
-        orderDate: new Date(),
+        total: 1.3,
+        orderNumber: "B0048248343",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Regan Kualii",
-          shippingAddress: "2141 West State Street",
+          shippingAddress: "1234 West State Street",
         },
       },
       {
         _id: 3,
-        total: 65.25,
-        orderNumber: "F0048248343",
-        orderDate: new Date(),
+        total: 16.4,
+        orderNumber: "ADFasdlfkjwe",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Aven Kualii",
-          shippingAddress: "622 West State Street",
+          shippingAddress: "1234 West State Street",
         },
       },
       {
         _id: 4,
-        total: 22.25,
-        orderNumber: "G0048248343",
-        orderDate: new Date(),
+        total: 19.4,
+        orderNumber: "A0048248343",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Tayvin Kualii",
-          shippingAddress: "876 West State Street",
+          shippingAddress: "1234 West State Street",
         },
       },
       {
         _id: 5,
-        total: 11.1,
-        orderNumber: "H0048248343",
-        orderDate: new Date(),
+        total: 19.4,
+        orderNumber: "A0048248343",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Paige Kualii",
-          shippingAddress: "411 West State Street",
+          shippingAddress: "1234 West State Street",
         },
       },
       {
         _id: 6,
-        total: 120.15,
-        orderNumber: "I0048248343",
-        orderDate: new Date(),
+        total: 19.4,
+        orderNumber: "A0048248343",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Nixon Kualii",
-          shippingAddress: "7890 West State Street",
+          shippingAddress: "1234 West State Street",
         },
       },
       {
         _id: 7,
-        total: 77.77,
-        orderNumber: "J0048248343",
-        orderDate: new Date(),
+        total: 3.2,
+        orderNumber: "5UFISHDFJASUSHI298",
+        orderDate: new Date().toDateString(),
         creditCard: "-0000",
         user: {
           name: "Preslee Kualii",
-          shippingAddress: "9876 West State Street",
+          shippingAddress: "348 Yo State Street",
         },
       },
     ],
