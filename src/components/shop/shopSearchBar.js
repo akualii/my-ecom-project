@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-
 import { reduxForm, Field } from "redux-form";
-
 function FormSearchBar(props) {
   return (
     <input
@@ -12,18 +10,16 @@ function FormSearchBar(props) {
     />
   );
 }
-
 {
   /* <i class="fas fa-search"></i> */
 }
-
 class ShopSearchBar extends Component {
   render() {
     const { className, handleSubmit } = this.props;
     return (
       <form onSubmit={handleSubmit} className={`${className} shop-search-bar`}>
         <Field
-          name="shop-search-bar"
+          name="query"
           className="shop-search-bar__form-search-bar"
           placeholder="search"
           component={FormSearchBar}
@@ -32,9 +28,7 @@ class ShopSearchBar extends Component {
     );
   }
 }
-
 ShopSearchBar = reduxForm({
   form: "ShopSearchBar",
 })(ShopSearchBar);
-
 export default ShopSearchBar;
