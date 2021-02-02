@@ -1,34 +1,33 @@
-@import "layout";
-@import "headernavbar";
-@import "auth/signin";
-@import "auth/signup";
-@import "page-title";
-@import "form-fields";
-@import "details";
-@import "account/purchase-history";
-@import "account/account-information";
-@import "account/account";
-
 html {
-  font-size: 62.5%; // 1rem is 10px
+  font-size: 62.5%;
 }
-
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: "montserrat";
 }
-
 body {
   font-family: "Open Sans";
   color: #808080;
 }
 
-.app {
-  margin-top: 2rem;
-  display: grid;
-  justify-items: center;
-}
+@import "layout";
+@import "headernavbar";
+
+@import "page-title";
+@import "form-fields";
+@import "details";
+
+// AUTH
+@import "auth/signin";
+@import "auth/signup";
+
+// ACCOUNT
+@import "account/account";
+@import "account/purchase-history";
+@import "account/account-information";
+
+// SHOP
+@import "shop/shop";
