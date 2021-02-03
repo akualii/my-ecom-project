@@ -8,18 +8,15 @@
     grid-row: tog-s/tog-e;
     grid-column: s/e;
     justify-self: end;
-
     display: grid;
     justify-items: center;
     align-items: center;
   }
-
   &__content {
     grid-row: con-s/con-e;
     grid-column: s/e;
   }
 }
-
 .shop-cart {
   &__toggle {
   }
@@ -30,7 +27,6 @@
     box-shadow: -3px 20px 20px 0 rgba(0, 0, 0, 0.2);
   }
 }
-
 .cart-button {
   background-color: #333;
   color: white;
@@ -41,4 +37,16 @@
 }
 
 .cart-content {
+  &__title {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Titillium Web";
+    color: #e6e6e6;
+  }
+  &__products {
+    display: grid;
+  }
+  &__footer {
+    display: grid;
+  }
 }
